@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "603429209997",
+    "firebase_url": "https://anargram-c6592.firebaseio.com",
+    "project_id": "anargram-c6592",
+    "storage_bucket": "anargram-c6592.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603429209997:android:34e341b5ff5c0506",
+        "android_client_info": {
+          "package_name": "ir.anargram.messenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603429209997-37ohqq9tvad34c5mm0j66e65nqmu0jc6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDouNQbo7FYRyGIofeUtYTJU4rvOYuSaMQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

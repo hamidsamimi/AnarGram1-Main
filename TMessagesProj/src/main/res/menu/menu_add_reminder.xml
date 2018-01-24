@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res/android">
+    <item
+        app:id="@+id/menu_delete"
+        app:icon="@drawable/ic_ab_fwd_delete"
+        app:title="delete"
+        android:showAsAction="always" />
+    <item
+        app:id="@+id/menu_check"
+        app:icon="@drawable/checkbig"
+        app:title="ok"
+        android:showAsAction="always" />
+</menu>

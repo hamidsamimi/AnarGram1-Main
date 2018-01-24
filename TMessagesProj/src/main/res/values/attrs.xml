@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  Copyright (C) 2012 The Android Open Source Project
+ 
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+ 
+       http://www.apache.org/licenses/LICENSE-2.0
+ 
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<resources>
+
+    <declare-styleable name="RTCGlView">
+        <attr name="mainMirror" format="boolean" />
+        <attr name="secondMirror" format="boolean" />
+        <attr name="mainCoords" format="reference" />
+        <attr name="secondCoords" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="SeekBarPreference">
+        <attr name="min" format="integer" />
+        <attr name="stepSize" format="integer" />
+    </declare-styleable>
+
+
+    <declare-styleable name="PenToolButton">
+        <attr name="strokeWidthMax" format="dimension" />
+        <attr name="strokeWidthMin" format="dimension" />
+        <attr name="interpolator" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="SwatchButton">
+        <attr name="color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="PenTypeButton">
+        <attr name="penType">
+	        <enum name="whiteboard" value="0" />
+	        <enum name="feltTip" value="1" />
+	        <enum name="airbrush" value="2" />
+	        <enum name="fountainpen" value="3" />
+        </attr>
+    </declare-styleable>
+
+    <attr name="nextIcon" format="reference" />
+    <attr name="beforeIcon" format="reference" />
+
+    <attr name="colorPrimary" format="color" />
+    <attr name="colorPrimaryDark" format="color" />
+    <attr name="colorAccent" format="color" />
+    <attr name="colorControlNormal" format="color" />
+    <attr name="colorControlActivated" format="color" />
+    <attr name="colorControlHighlight" format="color" />
+    <attr name="colorButtonNormal" format="color" />
+    <attr name="colorSwitchThumbNormal" format="color" />
+    <attr name="controlBackground" format="reference" />
+    <attr name="selectableItemBackground" format="reference" />
+    <attr name="selectableItemBackgroundBorderless" format="reference" />
+    <attr name="borderlessButtonStyle" format="reference" />
+
+</resources>
